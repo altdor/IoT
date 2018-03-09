@@ -1,0 +1,913 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.alarm.doralt.iotclockset.DeviceControlActivity">
+
+    <ScrollView
+        android:id="@+id/hours"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="8dp"
+        android:fillViewport="true"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.27">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/hours0"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setHour"
+                android:text="00" />
+
+            <Button
+                android:id="@+id/hours1"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setHour"
+                android:text="01" />
+
+            <Button
+                android:id="@+id/hours2"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setHour"
+                android:text="02" />
+
+            <Button
+                android:id="@+id/hours3"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setHour"
+                android:text="03" />
+
+            <Button
+                android:id="@+id/hours4"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setHour"
+                android:text="04" />
+
+            <Button
+                android:id="@+id/hours5"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setHour"
+                android:text="05" />
+
+            <Button
+                android:id="@+id/hours6"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setHour"
+                android:text="06" />
+
+            <Button
+                android:id="@+id/hours7"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setHour"
+                android:text="07" />
+
+            <Button
+                android:id="@+id/hours8"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setHour"
+                android:text="08" />
+
+            <Button
+                android:id="@+id/hours9"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setHour"
+                android:text="09" />
+
+            <Button
+                android:id="@+id/hours10"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setHour"
+                android:text="10" />
+
+            <Button
+                android:id="@+id/hours11"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setHour"
+                android:text="11" />
+
+            <Button
+                android:id="@+id/hours12"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setHour"
+                android:text="12" />
+
+            <Button
+                android:id="@+id/hours13"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setHour"
+                android:text="13" />
+
+            <Button
+                android:id="@+id/hours14"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setHour"
+                android:text="14" />
+
+            <Button
+                android:id="@+id/hours15"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setHour"
+                android:text="15" />
+
+            <Button
+                android:id="@+id/hours16"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setHour"
+                android:text="16" />
+
+            <Button
+                android:id="@+id/hours17"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setHour"
+                android:text="17" />
+
+            <Button
+                android:id="@+id/hours18"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setHour"
+                android:text="18" />
+
+            <Button
+                android:id="@+id/hours19"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setHour"
+                android:text="19" />
+
+            <Button
+                android:id="@+id/hours20"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setHour"
+                android:text="20" />
+
+            <Button
+                android:id="@+id/hours21"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setHour"
+                android:text="21" />
+
+            <Button
+                android:id="@+id/hours22"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setHour"
+                android:text="22" />
+
+            <Button
+                android:id="@+id/hours23"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setHour"
+                android:text="23" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ScrollView
+        android:id="@+id/minutes"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginTop="8dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.27">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/minutes0"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="00" />
+
+            <Button
+                android:id="@+id/minutes1"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="01" />
+
+            <Button
+                android:id="@+id/minutes2"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="02" />
+
+            <Button
+                android:id="@+id/minutes3"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="03" />
+
+            <Button
+                android:id="@+id/minutes4"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="04" />
+
+            <Button
+                android:id="@+id/minutes5"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="05" />
+
+            <Button
+                android:id="@+id/minutes6"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="06" />
+
+            <Button
+                android:id="@+id/minutes7"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="07" />
+
+            <Button
+                android:id="@+id/minutes8"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="08" />
+
+            <Button
+                android:id="@+id/minutes9"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="09" />
+
+            <Button
+                android:id="@+id/minutes10"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="10" />
+
+            <Button
+                android:id="@+id/minutes111"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="11" />
+
+            <Button
+                android:id="@+id/minutes12"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="12" />
+
+            <Button
+                android:id="@+id/minutes13"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="13" />
+
+            <Button
+                android:id="@+id/minutes14"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="14" />
+
+            <Button
+                android:id="@+id/minutes15"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="15" />
+
+            <Button
+                android:id="@+id/minutes16"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="16" />
+
+            <Button
+                android:id="@+id/minutes17"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="17" />
+
+            <Button
+                android:id="@+id/minutes18"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="18" />
+
+            <Button
+                android:id="@+id/minutes19"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="19" />
+
+            <Button
+                android:id="@+id/minutes20"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="20" />
+
+            <Button
+                android:id="@+id/minutes21"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="21" />
+
+            <Button
+                android:id="@+id/minutes22"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="22" />
+
+            <Button
+                android:id="@+id/minutes23"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="23" />
+
+            <Button
+                android:id="@+id/minutes24"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="24" />
+
+            <Button
+                android:id="@+id/minutes25"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="25" />
+
+            <Button
+                android:id="@+id/minutes26"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="26" />
+
+            <Button
+                android:id="@+id/minutes27"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="27" />
+
+            <Button
+                android:id="@+id/minutes28"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="28" />
+
+            <Button
+                android:id="@+id/minutes29"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="29" />
+
+            <Button
+                android:id="@+id/minutes30"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="30" />
+
+            <Button
+                android:id="@+id/minutes31"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="31" />
+
+            <Button
+                android:id="@+id/minutes32"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="32" />
+
+            <Button
+                android:id="@+id/minutes33"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="33" />
+
+            <Button
+                android:id="@+id/minutes34"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="34" />
+
+            <Button
+                android:id="@+id/minutes35"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="35" />
+
+            <Button
+                android:id="@+id/minutes36"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="36" />
+
+            <Button
+                android:id="@+id/minutes37"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="37" />
+
+            <Button
+                android:id="@+id/minutes38"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="38" />
+
+            <Button
+                android:id="@+id/minutes39"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="39" />
+
+            <Button
+                android:id="@+id/minutes40"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="40" />
+
+            <Button
+                android:id="@+id/minutes41"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="41" />
+
+            <Button
+                android:id="@+id/minutes42"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="42" />
+
+            <Button
+                android:id="@+id/minutes43"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="43" />
+
+            <Button
+                android:id="@+id/minutes44"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="44" />
+
+            <Button
+                android:id="@+id/minutes45"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="45" />
+
+            <Button
+                android:id="@+id/minutes46"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="46" />
+
+            <Button
+                android:id="@+id/minutes47"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="47" />
+
+            <Button
+                android:id="@+id/minutes48"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="48" />
+
+            <Button
+                android:id="@+id/minutes49"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="49" />
+
+            <Button
+                android:id="@+id/minutes50"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="50" />
+
+            <Button
+                android:id="@+id/minutes51"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="51" />
+
+            <Button
+                android:id="@+id/minutes52"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="52" />
+
+            <Button
+                android:id="@+id/minutes53"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="53" />
+
+            <Button
+                android:id="@+id/minutes54"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="54" />
+
+            <Button
+                android:id="@+id/minutes55"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="55" />
+
+            <Button
+                android:id="@+id/minutes56"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="56" />
+
+            <Button
+                android:id="@+id/minutes57"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="57" />
+
+            <Button
+                android:id="@+id/minutes58"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="58" />
+
+            <Button
+                android:id="@+id/minutes59"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:onClick="setMinutes"
+                android:text="59" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/setBluetooth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:visibility="visible"
+        android:text="Set"
+        android:onClick="sendData"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/two"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_device_address"
+            android:textSize="18sp" />
+
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/device_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/two"
+        app:layout_constraintBottom_toTopOf="@id/three"
+        app:layout_constraintTop_toBottomOf="@id/two"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="46dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_state"
+            android:textSize="18sp" />
+
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/connection_state"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/disconnected"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/three"
+        app:layout_constraintBottom_toTopOf="@id/hours"
+        app:layout_constraintTop_toBottomOf="@id/two"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_data"
+            android:textSize="18sp" />
+
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/data_value"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/no_data"
+            android:textSize="18sp" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
