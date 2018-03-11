@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<!-- saved from url=(0071)http://courses.cs.tau.ac.il/embedded/projects/spring2017/CannabiSitter/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <!-- Meta Tag -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO -->
+    <meta name="description" content="150 words">
+    <meta name="author" content="uipasta">
+    <meta name="url" content="http://www.yourdomainname.com">
+    <meta name="copyright" content="company name">
+    <meta name="robots" content="index,follow">
+    
+    
+    <title>IoTClock</title>
+    
+
+    <!-- All CSS Plugins -->
+    <link rel="stylesheet" type="text/css" href="./IoTClockFiles/plugin.css">
+    
+    <!-- Main CSS Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="./IoTClockFiles/style.css">
+    
+    <!-- Google Web Fonts  -->
+    <link rel="stylesheet" href="./IoTClockFiles/css">
+    
+    
+    <!-- HTML5 shiv and Respond.js support IE8 or Older for HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+	   <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+
+  </head>
+
+ <body waid71fa0d88-5390-4b5b-a2f4-e45fa93d85e2="SA password protect entry checker">
+
+      
+    
+    
+    <div id="main">
+        <div class="container">
+            <div class="row">
+            
+                
+                 
+                 <!-- Blog Post (Right Sidebar) Start -->
+                 <div class="col-md-22">
+                    <div class="col-md-12 page-body">
+                    	<div class="row">
+                    		<br><br>
+                            <center>
+                        <img src="./IoTClockFiles/logo.jpg" width = 50% alt="">
+                        </center>
+	                        <div class="sub-title">
+							
+	                           
+	                            
+                      <div class="my-detail">
+                        <div class="white-spacing">
+                            <h1>Advanced Computer Systems</h1>
+                            <span>Fall 2017</span>
+                        </div> 
+	                            <p align="center">
+								
+	                                </p><nav>
+	                                <h2>
+	                                    <a href="#intro">Introduction</a>
+	                                </h2>
+									<br>
+	                                <h2>
+	                                    <a href="#wayofuse">How does it work?</a>
+	                                </h2>
+	                             
+	                                <br>
+	                                <h2>
+	                                    <a href="#hardware">Hardware</a>
+	                                </h2>
+	                                      <br>
+										  <h2>
+	                                    <a href="#LCD">LCD way of use</a>
+	                                </h2>
+	                                      <br>
+	                                <h2>
+	                                    <a href="#UI">User Interface</a>
+	                                </h2>
+	                                <br>
+	                                <h2>
+	                                    <a href="#Difficulties">Difficulties & Summary</a>
+	                                </h2>
+	                                <br>
+	                                </nav>
+
+	                            <p></p>
+	                        </div>
+                            
+                            
+	                        <div class="col-md-12 content-page">
+                                
+
+
+                                    <!-- Blog Post Start -->
+                                    <div class="col-md-12 blog-post" style="display: block;">
+                                        <div class="post-title">
+                                            
+                                            <a id="intro"><h1>Introduction</h1></a>
+                                        </div>
+                                        <p>
+										Do you ever feel like waking-up in the morning is super hard?<br>
+										Everytime you wake up in the morning you know exactly how to shut your mobile's alarm clock?<br>
+										If your answer is yes then this IoTClock is designed just for you<br>
+										All you need to know is that for shutting down this alarm clock, you must think<br>
+										
+			
+										</p>
+                                        <div class="post-image">
+                                            <figure>
+                                                <image src ="IoTClockFiles/clock.jpg" >
+                                                <figcaption>The Whole Clock</figcaption>
+                                            </figure><br>
+											<figure>
+                                                <image src ="IoTClockFiles/screen.jpg" height = 40%>
+                                                <figcaption>Final result screen</figcaption>
+                                            </figure>
+                                        </div>
+	                            </div>
+								<div class="col-md-12 blog-post" style="display: block;">
+                                        <div class="post-title">
+                                            
+                                            <a id="wayofuse"><h1>How does it work?</h1></a>
+                                        </div>
+                                        <p>
+										 Once the alarm clock is set, time and date will change every minute (as needed)<br>
+											When the time comes, the buzzer will starts beeping and there's only one way to turn it off (well you can also break it but..)<br>
+											In order to turn off the clock you need to enter a 5 digits binary code which represents the day of the month <br>
+											You will see what you type while typing it<br>
+											If you were wrong, a red light will turn on and what you entered will be erased<br>
+											If you were right, a green light will turn on and the beeping will finally stop<br>
+											<br>
+											P.S: right button represents 0, left button represents 1
+										</p>
+
+	                            </div>
+
+
+                                
+	                            <!-- Blog Post Start -->
+	                            <div class="col-md-12 blog-post" style="display: block;">
+
+	                                <div class="post-title">
+	                                    <a id="hardware"><h1>Hardware</h1></a>
+	                                </div>
+	                                <h1>TI launnchpad 1350-4</h1><br>
+<figure><image src ="launchpad.png" height = 30%></figure>
+<br>
+
+ <p>The SimpleLink&trade; CC1350 wireless microcontroller (MCU) LaunchPad&trade; development kit combines a Sub-1 GHz with a Bluetooth&reg; low energy radio for the ultimate combination of easy mobile phone integration with long- range connectivity including a 32-bit ARM&reg; Cortex&reg;-M3 processor on a single chip.
+<p>The CC1350 device is a wireless MCU targeting low power, long range wireless applications with Bluetooth low energy implementations. The CC1350 wireless MCU contains a 32-bit ARM&reg; Cortex&reg;-M3 processor that runs at 48 MHz as the main processor and a rich peripheral feature set that includes a unique ultra-low power sensor controller. This sensor controller is ideal for interfacing external sensors and for collecting analog and digital data autonomously while the rest of the system is in sleep mode.</p>
+<br>
+<br><br><br>
+
+<h1>LCD 16X2</h1>
+<figure>
+<image src ="IoTClockFiles/lcd.jpg" width = 170%></figure><br>
+
+<p>This is a basic 16 character by 2 line display with a Yellow background and a Black backlight, utilizing the extremely common HD44780 parallel interface chipset.<br>
+It is mainly used for Arduino and Raspberry Pi</p>
+<br><br><br>
+<h1>Buzzer</h1><br>
+<br><figure>
+<image src ="IoTClockFiles/buzzer.jpg" width = 90%></figure><br>
+<p>The buzzer is used to produce sound</p>
+<br><br><br>
+<h1>Dimmer</h1><br>
+<br>
+<figure>
+<image src ="IoTClockFiles/dimmer.png" width = 200	%></figure><br>
+<p>The dimmer is used to change the screen's contrast</p>
+
+<div class="col-md-12 blog-post" style="display: block;">
+                                        <div class="post-title">
+                                            
+                                            <a id="LCD"><h1>LCD way of use</h1></a>
+                                        </div>
+										In order to pass the data to the screen I chose a 8bit connection, you can choose between 4bit and 8bit. The 8 bit is much simpler to use since
+										you only need to send the data once<br>
+										If you would like to use the 4bit connectivity, you need to send first the upper bits and then the lower bits and then the busy and read flags.<br>
+										After connecting the LCD screen to the board, there's a table showing how to initialize the screen, write to the first line or second line<br>
+										Here you can also choose if you want one or two lines, I chose two so I could use the upper line for the clock and the bottom line to print a binary code the user enters.<br>
+										At the end you will find how to write each and every char you'd like.	
+                                        <image src ="IoTClockFiles/connectivity.jpg" width = 80%>
+										<center>LCD connectivity</center>
+<br><br>
+                                                <image src ="IoTClockFiles/writing.jpg" width = 80%>
+                                                <center>writing and initializing</center>
+<br><br>
+                                                <image src ="IoTClockFiles/chars.jpg" width = 80%>
+                                                <center>what to write</center>
+              
+	                            </div>
+
+
+	                            <!-- Blog Post Start -->
+	                            <div class="col-md-12 blog-post" style="display: block;">
+	                                <div class="post-title">
+	                                    <a id="UI"><h1>User Interface</h1></a>
+	                                </div>
+	                                <p> The user will connect to the Launchpad using an android phone, over there he will set the clock and set the IoTClock</p>
+<br><figure><image src ="IoTClockFiles/connect.png" width = 90%><figcaption>
+connect to launchpad</figcaption></figure><br>
+<br><figure><image src ="IoTClockFiles/SetClock.png" width = 90%><figcaption>
+Set the alarm clock</figcaption></figure><br>
+                                    
+	                                <div class="post-title">
+	                                    <a id="Difficulties"><h1>Difficulties & Summary</h1></a>
+	                                </div>
+	                             <p> In order to do this project I had to split it into few parts. when one worked I could have moved to the other<br>
+First I had to realize how to use the I/O pins, once I know I control the pins (didn't took too long) I had to learn how to use the LCD. since the LCD is usually 
+used with Arduino and Raspberry Pi there was nothing on the web. I had to read the manual, study how to reset the board, write what I want, how long each command takes etc.. that part wasn't easy and took a while but at the end its achievable.<br><br>
+The next step was setting up the time, I think the main issue is that there's not many people asking questions on the forum and so, after I finally discovered how to set the board's time, it didn't compile. apparently I had to change the .cfg file to compile my project. That part took few days just to get an answers at the forum <br>
+<br>the final step was building a BLE android app and communicating with the board and that one was a big obstacle, I had to learn how fast I can write to the board and to write the android app itself which was a big issue. There's a google template all can use but it's not for writing so I took it as a template and continues from there.
+<br><br>
+The project usec the cc1350 Launchpad we studied the course on<br>
+It was about learning how to use the LCD screen with the Launchpad while using the BLE protocol and also, making something useful<br>
+My base example was the simple_peripheral we used in the BLE HW. even though the HW had nothing to do with what I've done, knowing where things can be found in the code was a big help<br>
+All in all, I'm glad I took this course, I think it was very interesting and it was a great and fun experience. 
+<br>
+<a href="https://github.com/altdor/IoT.git" target="_blank">
+											 Code can be found on gitHub
+										</a>
+</p>
+
+
+	                            </div>
+	                            <!-- Blog Post End -->
+                                
+
+
+
+
+	                            <!--<div class="col-md-12 text-center">
+	                                <a href="javascript:void(0)" id="load-more-post" class="load-more-button">Load</a>
+	                                <div id="post-end-message"></div>
+	                            </div>-->
+	                        </div>
+                         </div>
+                         </div>
+                       <!-- Footer Start -->
+                       <div class="col-md-12 page-body margin-top-50 footer">
+                           <footer>
+                               <p>This project was created by Dor Alt as part of the Advanced computer systems course in Tel Aviv University, supervised by Prof. Sivan Toledo.
+                               © All rights reserved</p>
+
+
+                               <!-- UiPasta Credit Start -->
+                               <div class="uipasta-credit">Web design By <a href="http://www.uipasta.com/" target="_blank">UiPasta</a>
+                               </div>
+                               <!-- UiPasta Credit End -->
+
+
+                           </footer>
+                       </div>
+                       <!-- Footer End -->
+                     
+                     
+                  </div>
+                  <!-- Blog Post (Right Sidebar) End -->
+                
+            </div>
+         </div>
+      </div>
+    </div>
+    
+
+    
+    
+    <!-- All Javascript Plugins  -->
+    <script type="text/javascript" src="./IoTClockFiles/jquery.min.js.download"></script>
+    <script type="text/javascript" src="./IoTClockFiles/plugin.js.download"></script>
+    
+    <!-- Main Javascript File  -->
+    <script type="text/javascript" src="./IoTClockFiles/scripts.js.download"></script>
+
+    
+   
+ 
+<div id="endpage-box" class="endpage-box" data-status="off" style="display: none;">Better Add something cool here.</div></body></html>
